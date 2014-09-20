@@ -1,0 +1,9 @@
+{
+    "name": "stdPanelOutline",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "library",
+    "hidden": true,
+    "author": "myke predko",
+    "minimum_firmware_version": 40
+}
