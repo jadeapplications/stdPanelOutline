@@ -1,0 +1,39 @@
+#  _exec2 - Subpanel equipped Panel
+
+background =           _2exec.bmp;
+
+bticon     =           _btoff.bmp,    _bton.bmp,    _btcon.bmp,                              82,  1, 14,  9;
+usbicon    =           _usbnc.bmp,    _usbcon.bmp,                                           97,  1, 15,  9;
+batticon   =           _batt0.bmp,    _batt1.bmp,   _batt2.bmp,   _batt3.bmp,   _batt4.bmp, 113,  1, 14,  9;
+
+icon       = tools,    _2tools.bmp,   0,   1, 12,  24, 24,         nostop,   show, rounded;
+icon       = return,   _3return.bmp,  0,   1, 39,  24, 24,           stop,   show, rounded;
+
+subpanel   =                              26, 11, 102, 53; 
+
+#  "icon" Control Type paramters:
+#  First is the Control Name
+#  Second is the initial Bitmap name
+#  Third is the numeric Value available to the control
+#  Fourth and Fifth are the top left Corner
+#  Sixth and Seventh are the expected size of the control
+#  Eigth is whether or not you can stop at the control
+#  Ninth is Visible/invisible - if invisible, can't stop at control
+#  Tenth is square or rounded highlight
+
+#  Should have an orientation parameter
+
+text       = pgmname,  "0123456789012", 13, 0,   1,  0,    5x7, left, nostop,   show, reverse;
+#  "text" Control Type paramters:
+#  First is the Control Name
+#  Second is the initial Text String
+#  Third is the number of characters allowed
+#  Fourth is the numeric Value available to the control
+#  Fifth and Sixth are the top left Corner
+#  Seventh is the Font Size
+#  Eigth is the justification of the text
+#  Ninth is whether or not you can stop at the control
+#  Tenth is Visible/invisible - if invisible, can't stop at control
+#  Eleventh is normal or reversed display
+
+#  Should have an orientation parameter
