@@ -5,5 +5,5 @@
     "project_type": "library",
     "hidden": true,
     "author": "myke predko",
-    "minimum_firmware_version": 40
+    "minimum_firmware_version": 42
 }
