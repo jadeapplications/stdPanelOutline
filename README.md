@@ -11,7 +11,7 @@ This is a dependency project for other applications.
 Type              : C
 Version           : 01.0
 Author            : myke predko
-Firmware          : 40
+Firmware          : 42
 ```
 
 ### Release History:
